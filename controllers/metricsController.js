@@ -21,3 +21,14 @@ fs.writeFile('metrics.json', jsonResult, 'utf8', (err) => {
 };
 
 
+// reading the json data from metrics.json file 
+module.exports.readMetrics = async (req, res) => {
+  try {
+const readMetrics = fs.readFileSync("metrics.json", "utf8");
+res.status(200).json(JSON.parse(readMetrics));
+}catch (err) {
+    res.status(500).json({message:err.message});
+  }
+};
+
+
