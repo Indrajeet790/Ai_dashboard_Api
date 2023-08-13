@@ -1,0 +1,17 @@
+[
+  {
+    "productInput": "product_data1",
+    "prediction": 0.7507234579866747,
+    "actual": 0.8
+  },
+  {
+    "productInput": "product_data2",
+    "prediction": 0.918272250970763,
+    "actual": 0.89
+  },
+  {
+    "productInput": "product_data3",
+    "prediction": 0.7944474080426368,
+    "actual": 0.78
+  }
+]
