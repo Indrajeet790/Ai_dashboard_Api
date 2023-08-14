@@ -17,9 +17,10 @@
 
 ## Endpoints
 
-- POST `/api/items/create` - Create a new item in the database.
+- POST `/api/metrics/create` -  route for creating metrics data in the form of JSON and store 
 - GET `/api/metrics` - This endpoint responds with mock AI model metrics data in JSON format, including accuracy, precision, and recall.
-- GET `/api/predictions`- This endpoint responds with simulated AI predictions and actual results for data visualization.
+- POST `/api/prediction/create` -  route for creating prediction data in the form of JSON and store 
+- GET `/api/prediction`- This endpoint responds with simulated AI predictions and actual results for data visualization.
 
 
 ## Data Storage
