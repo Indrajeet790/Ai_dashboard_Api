@@ -4,23 +4,15 @@ Published postman documentation of BookStore Api:https://documenter.getpostman.c
 
 ## Description
 
--This is a simple RESTful API that performs CRUD (Create, Read, Update, Delete) operations.
-
-- And used pagination for listing control.
-- I used MongoDb for store data into database.
+-This repository contains the backend code for the AI product's dashboard. It's built using Node.js and Express to provide API endpoints for retrieving AI model metrics and prediction data. Data is stored in JSON files, and the server ensures proper error handling and validation for API requests.
 
 ## Requirements
 
 - Node.js (version X.X.X)
-- MongoDB (version X.X.X)
 - express (version X.X.X)
-- mongoose (version X.X.X)
-- winston(version X.X.X)
-- winston-mongodb(version X.X.X)
-
 ## Setup
 
-1. Make sure you have Node.js, Express, and MongoDB installed on your system.
+1. Make sure you have Node.js, Express,on your system.
 2. Clone the repository: `git clone https://github.com/Indrajeet790/BokkStore-assignment
 3. Install the dependencies: `npm install`
 4. Start the server: `node index.js`
